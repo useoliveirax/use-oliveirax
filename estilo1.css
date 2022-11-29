@@ -1,0 +1,77 @@
+p {
+     text-align: center;
+ }
+
+strong {
+	color: #F3EFE0;
+}
+
+em {
+    color: #000000;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+#aprenda {
+    font-size: 25px
+}
+
+#banner {
+    width: 100%;
+}
+
+.itens {
+    font-style: italic
+}
+
+.beneficios{
+    background: #F3EFE0;
+    padding: 20px;
+}
+
+.principal{
+    background: #000000;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 50%;
+}
