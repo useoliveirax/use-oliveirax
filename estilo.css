@@ -1,0 +1,69 @@
+header {
+	background: #242331;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #F3EFE0;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #F3EFE0;
+	text-decoration: underline;
+}
+
+.servicos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.servicos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #F3EFE0;
+	border-radius: 10px;
+}
+
+.servicos li: hover {
+	border-color: #F3EFE0;
+}
+
+.servicos li:active {
+	border-color: #F3EFE0;
+}
+
+.servicos li hover h2 {
+	font-size: 34px;
+}
+
+.servicos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
